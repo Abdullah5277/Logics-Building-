@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+    for (int i=0;i<5;i++){
+        for(int k=0;k<5;k++){
+            cout<<" ";
+            for(int j=i;j<5;j++){
+            cout<<j;
+        }
+        }
+        
+        cout<<"\n";
+    }
+    for (int i=0;i<=5;i++){
+        for(int k=0;k<5;k++){
+            cout<<"";
+        }
+        for(int j=0;j<i;j++){
+            cout<<j;
+        }
+        cout<<"\n";
+    }
+    return 0;
+}
